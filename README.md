@@ -3,7 +3,7 @@
 ## Overview
 One of the tasks of the Data Scientist role at the VCSEP (beside building interesting open source tools and R packages!) will be to maintain and expand the existing [R Shiny](https://shiny.rstudio.com/) web app the partnership uses to share insight.
 
-In this repository we have built a small toy Shiny app (contained within `app.R`). The purpose of the app is to allow a user to a select a Local Authority District in England and view the associated Indices of Multiple Deprivation (IMD)[https://www.gov.uk/government/statistics/english-indices-of-deprivation-2019] scores for that district. The app has three main components: (i) a map of English Local Authority Districts; (ii) a select box with a list of English Local Authority Districts; (iii) a table showing the IMD scores for the selected districts:
+In this repository we have built a small toy Shiny app (contained within `app.R`). The purpose of the app is to allow a user to a select a Local Authority District in England and view the associated Indices of Multiple Deprivation [IMD](https://www.gov.uk/government/statistics/english-indices-of-deprivation-2019) scores for that district. The app has three main components: (i) a map of English Local Authority Districts; (ii) a select box with a list of English Local Authority Districts; (iii) a table showing the IMD scores for the selected districts:
 
 <img src='app-screenshot.png' align="centre"/>
 
