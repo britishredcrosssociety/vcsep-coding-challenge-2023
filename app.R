@@ -70,7 +70,7 @@ server <-
   function(input, output, session) {
 
     # - Track selections -
-    # Track which map polygons the use has clicked on
+    # Track which map polygons the user has clicked on
     selected_polygon <- reactiveVal("E06000001")
 
     observeEvent(input$map_shape_click, {
