@@ -22,7 +22,9 @@ Your task is to fix two bugs in the app and implement a new feature:
 
 ## FAQ
 *Where can I learn more about Shiny's reactive programming model?*
+
 Chapters 3 & 13-16 of [Mastering Shiny](https://mastering-shiny.org/) are a good resource on this topic.
 
 *Can I rebuild this app in Python?*
+
 No. While we do use Python alongside R, the existing code base for the Insight platform is built in R, and it is a requirement for the role that you are able to maintain this. This does not mean future analyses cannot be written in Python (or your language of choice).
