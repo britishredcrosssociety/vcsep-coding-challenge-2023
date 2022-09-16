@@ -18,7 +18,7 @@ Your task is to fix two bugs in the app and implement a new feature:
 ## Submission
 1. Fork this repository
 2. Implement the bug fixes and feature request listed above
-3. Submit a pull request no later than 12:00pm GMT on 27th August 2021
+3. Submit a pull request no later than 9am GMT on 22nd September 2022
 
 ## FAQ
 *Where can I learn more about Shiny's reactive programming model?*
