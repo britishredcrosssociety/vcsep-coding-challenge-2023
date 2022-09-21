@@ -13,8 +13,9 @@ library(geographr)
 # Join the English Local Authortiy District IMD data set (exported from IMD) to 
 # the corresponding boundary (shape) file (exported from geograhr)
 imd_with_boundaries <-
-  boundaries_lad |>
-  right_join(imd_england_lad)
+  boundaries_ltla19 |>
+  right_join(imd_england_lad, by = c("ltla19_code" = "lad_code")) |>
+  rename(lad_name = ltla19_name, lad_code = ltla19_code)
 
 # ---- UI ----
 ui <-
