@@ -92,7 +92,9 @@ server <-
     
     
     observeEvent(input$selectbox,{
-      var <- imd_with_boundaries %>% filter(ltla19_name == input$selectbox) %>% pull(ltla19_code)
+      var <- imd_with_boundaries %>% 
+        filter(ltla19_name == input$selectbox) %>% 
+        pull(ltla19_code)
       selected_polygon(var)
     },
     ignoreInit = T)
@@ -133,7 +135,13 @@ server <-
       })
     
     # Select LA name to be shown above table in output
-    output$ltla19_name <- renderText(paste0(imd_with_boundaries %>% filter(ltla19_code == selected_polygon()) %>% pull(ltla19_name)))
+    output$ltla19_name <- renderText(
+      paste0(
+        imd_with_boundaries %>% 
+          filter(ltla19_code == selected_polygon()) %>% 
+          pull(ltla19_name)
+        )
+      )
     
     # - Table -
     output$imdTable <-
